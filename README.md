@@ -1,4 +1,5 @@
 Here's a complete video demonstration:
 
-[Download or view demonstration video](demontration-video.mp4)
+[Watch the demonstration video](demontration-video.mp4)
+
 
