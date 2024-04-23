@@ -1,0 +1,96 @@
+/* Reset some basic elements */
+body, h1, form, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4; /* Soft gray background */
+    color: #333; /* Basic dark gray text for readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #007BFF; /* Blue shade for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 16px; /* Slightly larger label text */
+    color: #666; /* Medium gray for labels */
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+    padding: 10px;
+    margin-bottom: 20px; /* Spacing below each input */
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Subtle borders for inputs */
+}
+
+textarea {
+    height: 100px; /* Fixed height for textarea */
+    resize: none; /* Disable resizing */
+}
+
+input[type="submit"] {
+    background-color: #28a745; /* Green background for submit button */
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Additional CSS to style the Go Back link as a button */
+.back-button {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Additional styling for responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 1em;
+    }
+}
